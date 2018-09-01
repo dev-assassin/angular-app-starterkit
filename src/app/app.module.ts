@@ -6,10 +6,12 @@ import { FormioModule, FormioAppConfig } from 'angular-formio';
 import { FormioResources } from 'angular-formio/resource';
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
