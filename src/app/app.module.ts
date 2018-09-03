@@ -4,6 +4,7 @@ import { AuthConfig, AppConfig } from '../config';
 import { FormioAuthService, FormioAuthConfig } from 'angular-formio/auth';
 import { FormioModule, FormioAppConfig } from 'angular-formio';
 import { FormioResources } from 'angular-formio/resource';
+import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -15,7 +16,9 @@ import { HeaderComponent } from './header/header.component';
   ],
   imports: [
     BrowserModule,
-    FormioModule
+    FormioModule,
+    RouterModule.forRoot([
+    ])
   ],
   providers: [
     FormioResources,
