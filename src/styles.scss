@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+/*@import "~bootswatch/dist/yeti/_variables.scss";*/
+@import "~bootstrap/scss/bootstrap.scss";
+
+/*@import "~bootswatch/dist/yeti/_bootswatch.scss";*/
+.logo {
+  height: 1.9em;
+}
+
+.text-blue {
+  color: #127ABF;
+}
+
+.text-green {
+  color: #449414;
+}
+
+.hero-image {
+  display: inline;
+  // height: 2em;
+}
+
+#main {
+  margin-top: 10px;
+}
